@@ -1,1 +1,2 @@
 3e82001a-2e87-44c3-b2a7-13a8d8b3dbee cost=300 sameas-name=dandiapi sameas-uuid=00000000-0000-0000-0000-000000000001 type=web urlinclude=*//api.dandiarchive.org/* timestamp=1795473125s
+cf13d535-b47c-5df6-8590-0793cb08a90a autoenable=true encryption=none externaltype=datalad name=datalad type=external timestamp=1795473128s
