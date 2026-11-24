@@ -3,45 +3,18 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0003881
+  name: CA1 field of hippocampus
+  schemaKey: Anatomy
 access:
 - embargoedUntil: '2030-02-28'
   schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
 assetsSummary:
-  approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  - name: signal filtering technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 140968859747
-  numberOfFiles: 42
-  numberOfSamples: 1
-  numberOfSubjects: 8
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: Mus musculus - House mouse
-    schemaKey: SpeciesType
-  variableMeasured:
-  - ElectrodeGroup
-  - Units
-  - LFP
-  - ElectricalSeries
-  - ProcessingModule
 citation: Yang, Gaokhia; Maphis, Nicole M.; Jackson, Brandon T.; Bacho, Matthew; Perrone-Bizzozero,
   Nora; McKenzie, Sam (2026) Disrupting translation in CA1 pyramidal cells blocks
   novelty-induced increases in population firing rate while preserving newly formed
@@ -163,9 +136,25 @@ description: "Long-term memory requires the synthesis of plasticity-related prot
   Care and Use Committee at the University of New Mexico. Data are shared on the DANDI
   Archive in the Neurodata Without Borders (NWB) standard in adherence with the FAIR
   data principles."
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    email: HSC-OACC@salud.unm.edu
+    schemaKey: ContactPoint
+    url: https://hsc.unm.edu/research/compliance/oacc.html
+  identifier: 26-201816-HSC
+  schemaKey: EthicsApproval
 id: DANDI:002096/draft
 identifier: DANDI:002096
+keywords:
+- Hippocampus
+- CA1
+- Synaptic plasticity
+- replay
+- ripples
+- memory
+- cell assemblies
+- protein synthesis
+- inhibition
 license:
 - spdx:CC0-1.0
 manifestLocation:
