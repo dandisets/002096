@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - embargoedUntil: '2030-02-28'
   schemaKey: AccessRequirements
@@ -26,10 +27,10 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 123463704088
-  numberOfFiles: 39
+  numberOfBytes: 133428011808
+  numberOfFiles: 41
   numberOfSamples: 1
-  numberOfSubjects: 7
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -41,9 +42,9 @@ assetsSummary:
   - LFP
   - ElectricalSeries
   - ProcessingModule
-citation: Disrupting protein translation in CA1 pyramidal cells blocks increases in
-  population firing rate after novelty while leaving newly formed CA1 assemblies intact
-  (2026). (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002096/draft
+citation: Disrupting protein translation in CA1 pyramidal cells blocks increase in
+  population firing rate after novelty while preserving newly formed assemblies (2026).
+  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002096/draft
 contributor:
 - awardNumber: R01MH140076
   includeInCitation: false
@@ -87,14 +88,19 @@ description: "Long-term memory requires the synthesis of plasticity-related prot
   Care and Use Committee at the University of New Mexico. Data are shared on the DANDI
   Archive in the Neurodata Without Borders (NWB) standard in adherence with the FAIR
   data principles."
+ethicsApproval: []
 id: DANDI:002096/draft
 identifier: DANDI:002096
+license:
+- spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002096/versions/draft/assets/
-name: Disrupting protein translation in CA1 pyramidal cells blocks increases in population
-  firing rate after novelty while leaving newly formed CA1 assemblies intact
+name: Disrupting protein translation in CA1 pyramidal cells blocks increase in population
+  firing rate after novelty while preserving newly formed assemblies
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/002096/draft
 version: draft
+wasGeneratedBy: []
