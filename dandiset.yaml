@@ -27,8 +27,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 133428011808
-  numberOfFiles: 41
+  numberOfBytes: 140968859747
+  numberOfFiles: 42
   numberOfSamples: 1
   numberOfSubjects: 8
   schemaKey: AssetsSummary
@@ -42,36 +42,35 @@ assetsSummary:
   - LFP
   - ElectricalSeries
   - ProcessingModule
-citation: National Institute of Mental Health; National Institute of Mental Health;
-  Whitehall Foundation; National Institute of Neurological Disorders and Stroke (2026)
-  Disrupting translation in CA1 pyramidal cells blocks novelty-induced increases in
-  population firing rate while preserving newly formed assemblies (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002096/draft
+citation: Yang, Gaokhia; Maphis, Nicole M.; Jackson, Brandon T.; Bacho, Matthew; Perrone-Bizzozero,
+  Nora; McKenzie, Sam (2026) Disrupting translation in CA1 pyramidal cells blocks
+  novelty-induced increases in population firing rate while preserving newly formed
+  assemblies (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002096/draft
 contributor:
 - awardNumber: R01MH140076
   identifier: https://ror.org/04t0s7x83
-  includeInCitation: true
+  includeInCitation: false
   name: National Institute of Mental Health
   roleName:
   - dcite:Funder
   schemaKey: Organization
 - awardNumber: R00MH118423
   identifier: https://ror.org/04t0s7x83
-  includeInCitation: true
+  includeInCitation: false
   name: National Institute of Mental Health
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- identifier: https://ror.org/00her7k05
-  includeInCitation: true
-  name: Whitehall Foundation
   roleName:
   - dcite:Funder
   schemaKey: Organization
 - awardNumber: RC2NS138557
   identifier: https://ror.org/01s5ya894
-  includeInCitation: true
+  includeInCitation: false
   name: National Institute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/00her7k05
+  includeInCitation: false
+  name: Whitehall Foundation
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -80,6 +79,54 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- email: GVYang@salud.unm.edu
+  identifier: 0000-0001-6081-2762
+  includeInCitation: true
+  name: Yang, Gaokhia
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:Researcher
+  schemaKey: Person
+- email: NMaphis@salud.unm.edu
+  includeInCitation: true
+  name: Maphis, Nicole M.
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- email: bt_jackson@aol.com
+  includeInCitation: true
+  name: Jackson, Brandon T.
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- email: bachomg@hawaii.edu
+  includeInCitation: true
+  name: Bacho, Matthew
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- email: NBizzozero@salud.unm.edu
+  includeInCitation: true
+  name: Perrone-Bizzozero, Nora
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- email: SAMcKenzie@salud.unm.edu
+  identifier: 0000-0002-0492-0950
+  includeInCitation: true
+  name: McKenzie, Sam
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:Conceptualization
+  - dcite:Investigation
+  - dcite:Researcher
+  schemaKey: Person
 dateCreated: '2026-11-23T22:21:58.399644+00:00'
 description: "Long-term memory requires the synthesis of plasticity-related proteins,
   but it remains unclear whether experience-dependent changes in hippocampal CA1 coding
