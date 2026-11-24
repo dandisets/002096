@@ -7,6 +7,9 @@ about:
 - identifier: http://purl.obolibrary.org/obo/UBERON_0003881
   name: CA1 field of hippocampus
   schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/GO_0007613
+  name: memory
+  schemaKey: GenericType
 access:
 - embargoedUntil: '2030-02-28'
   schemaKey: AccessRequirements
@@ -30,10 +33,10 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 178917806267
-  numberOfFiles: 54
+  numberOfBytes: 187008255609
+  numberOfFiles: 56
   numberOfSamples: 1
-  numberOfSubjects: 8
+  numberOfSubjects: 9
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
