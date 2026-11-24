@@ -30,8 +30,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 152830366855
-  numberOfFiles: 45
+  numberOfBytes: 158936103614
+  numberOfFiles: 47
   numberOfSamples: 1
   numberOfSubjects: 8
   schemaKey: AssetsSummary
@@ -113,6 +113,7 @@ contributor:
   - dcite:Researcher
   schemaKey: Person
 - email: NBizzozero@salud.unm.edu
+  identifier: 0000-0002-7608-1332
   includeInCitation: true
   name: Perrone-Bizzozero, Nora
   roleName:
