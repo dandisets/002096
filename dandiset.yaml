@@ -42,13 +42,41 @@ assetsSummary:
   - LFP
   - ElectricalSeries
   - ProcessingModule
-citation: Disrupting protein translation in CA1 pyramidal cells blocks increase in
-  population firing rate after novelty while preserving newly formed assemblies (2026).
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002096/draft
+citation: National Institute of Mental Health; National Institute of Mental Health;
+  Whitehall Foundation; National Institute of Neurological Disorders and Stroke (2026)
+  Disrupting translation in CA1 pyramidal cells blocks novelty-induced increases in
+  population firing rate while preserving newly formed assemblies (Version draft)
+  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002096/draft
 contributor:
 - awardNumber: R01MH140076
-  includeInCitation: false
-  name: National Institutes of Health
+  identifier: https://ror.org/04t0s7x83
+  includeInCitation: true
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R00MH118423
+  identifier: https://ror.org/04t0s7x83
+  includeInCitation: true
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/00her7k05
+  includeInCitation: true
+  name: Whitehall Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: RC2NS138557
+  identifier: https://ror.org/01s5ya894
+  includeInCitation: true
+  name: National Institute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/00ydx1s47
+  name: Astera Institute
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -95,8 +123,8 @@ license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002096/versions/draft/assets/
-name: Disrupting protein translation in CA1 pyramidal cells blocks increase in population
-  firing rate after novelty while preserving newly formed assemblies
+name: Disrupting translation in CA1 pyramidal cells blocks novelty-induced increases
+  in population firing rate while preserving newly formed assemblies
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
