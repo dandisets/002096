@@ -11,9 +11,9 @@ about:
   name: memory
   schemaKey: GenericType
 access:
-- embargoedUntil: '2030-02-28'
+- embargoedUntil: '2026-11-25'
   schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: electrophysiological approach
